@@ -11,4 +11,4 @@ Then, I remembered a very popular exiftool and thought I'd try it to see if I wa
 
 Uploading the picture to the site, we see the coordinates: "33.891532, 35.505658". We already knew the coordinates but this was a shortened version.
 
-After a few variations, we have our flag: flag{g{33.891532,35.505658}
+After a few variations, we have our flag: flag{33.891532,35.505658}
