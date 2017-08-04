@@ -2,6 +2,8 @@ Because the site was taken down, I don't have the full text for the challenge bu
 "Our company doesn't spend a lot on paid products, and we use a lot of open source/free products. For example, we use git for version controlling - https://github.com/x64Corp.
 Since teams don't use any centralized chat systems, it's difficult to monitor the same. Our CTO suspects that someone is keeping any eye on <don't have this but it was something about slack>."
 
+Our majors clues here are github and slack. So, let's get started.
+
 Browsing to https://github.com/x64Corp, we see two contributors to the repo. If we click on malakhshou, we are taken to his page and see a repo called "private server - Forked from k2matsumoto/slack". Clicking on https://github.com/malakhshou/private_server, we are brought to a repo for x64corp's slack server. Looking at the recently updated files, we eventually come to https://github.com/malakhshou/private_server/blob/master/appengine_config.py. We notice a slack token but it just has "XXXX". Clicking on the history, we find a hardcoded API token:
 https://github.com/malakhshou/private_server/commit/44a58b4fabc6b8a5057a37742e412b4610d1f128
 
@@ -12,4 +14,4 @@ Sweet! We see a json response that has channel listings for x64corp but no flag!
 Since we have channel IDs, let's see if we can look at the history. Using the "general channel", we can use the API to view the history:
 https://slack.com/api/channels.history?token=xoxp-204882332822-203523130257-204081355250-8200a7efb0bec7fbd5894bf09bc7ab08&channel=C60RY9W8N
 
-Aha! We can look at the json response and there's the flag: flag{myp@ssw0rdi5y0urfl4g}
+Aha! We can look at the json response and there's the flag for 300 points: flag{myp@ssw0rdi5y0urfl4g}
