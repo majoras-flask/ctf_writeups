@@ -1,0 +1,12 @@
+We are presented with the following challenge:
+"Dan has shared an IP 54.183.214.103 which he suspect that the hackers used to attack us. He was able to ping it a few minutes back, but it's not responding anymore - can you find out anything which might be helpful."
+
+Performing standard recon for an IP address, we go to shodan: https://www.shodan.io/host/54.183.214.103
+
+We see that two ports open. Looking at the port 80 response headers, we see that the server was hacked with a message:
+"Hello:  Welcome to my kingdom!
+Passion:  Photography
+What else?:  fL!CK me  @  {bilalkharjilal337}
+Till when?:  As long as I am available"
+
+Flag for 100 points: flag{bilalkharjilal337}
