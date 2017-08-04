@@ -1,0 +1,8 @@
+We are presented with the following challenge:
+"Paul was System Admin at x64 Corporation. He had an argument with his manager and left the company a few days back. Being disappointed, he started leaking sensitive data. He also deleted all of the employee records. Help our investigators to find his Phone number".
+
+The main clue here is “left the company a few days back”. Using the way back machine for the x64-corp.com domain, we find a saved version of the page with Paul’s contact information:
+
+https://web.archive.org/web/20170621192326/https://x64-corp.com
+
+Flag for 100 points: flag{559811232121278}
