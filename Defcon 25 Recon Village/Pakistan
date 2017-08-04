@@ -2,8 +2,8 @@ We are presented with the following challenge:
 
 "Can you find out the location of the hacker using the IP in challenge 5?"
 
-Given the hints of "Passion: Photography" and "fL!CK me  @  {bilalkharjilal337}", we presume his has flick account and he does:
-flickr.com/bilalkharjilal337
+Given the hints of "Passion: Photography" and "fL!CK me  @  {bilalkharjilal337}", we presume he has flick account and he does:
+flickr.com/bilalkharjilal337 (seems to be down ATM)
 
 He only has one photo. This one photo gave us way too many headaches. The first thing we did was download and use exiftool in Kali. We got the GPS coordinates and plugged into google maps. Takes us right to where the picture was taken. From here we tried every combination of Beirut/Lebanon/Lat-Long...EVERYTHING...
 
